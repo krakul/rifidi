@@ -11,6 +11,7 @@
     <orderEntry type="module" module-name="org.rifidi.edge.init" />
     <orderEntry type="library" name="ECLIPSE" level="application" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="Plugins" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="Plugins" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="OSGi Core API" level="project" />
   </component>
 </module>
