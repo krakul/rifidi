@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Plugins">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/Rifidi-SDK/rifidi/debian/usr/local/sbin/rifidi/plugins" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/Rifidi-SDK/rifidi/debian/usr/local/sbin/rifidi/plugins" recursive="false" />
+  </library>
+</component>
