@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Rifidi-SDK/Rifidi-SDK.iml" filepath="$PROJECT_DIR$/Rifidi-SDK/Rifidi-SDK.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/org.rifidi.app.db/org.rifidi.app.db.iml" filepath="$PROJECT_DIR$/apps/org.rifidi.app.db/org.rifidi.app.db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/org.rifidi.app.dynamodb/org.rifidi.app.dynamodb.iml" filepath="$PROJECT_DIR$/apps/org.rifidi.app.dynamodb/org.rifidi.app.dynamodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/org.rifidi.app.example/org.rifidi.app.example.iml" filepath="$PROJECT_DIR$/apps/org.rifidi.app.example/org.rifidi.app.example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/org.rifidi.app.helloworld/org.rifidi.app.helloworld.iml" filepath="$PROJECT_DIR$/apps/org.rifidi.app.helloworld/org.rifidi.app.helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/org.rifidi.app.northwind/org.rifidi.app.northwind.iml" filepath="$PROJECT_DIR$/apps/org.rifidi.app.northwind/org.rifidi.app.northwind.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/org.rifidi.app.performance/org.rifidi.app.performance.iml" filepath="$PROJECT_DIR$/apps/org.rifidi.app.performance/org.rifidi.app.performance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/org.rifidi.app.readerconfig/org.rifidi.app.readerconfig.iml" filepath="$PROJECT_DIR$/apps/org.rifidi.app.readerconfig/org.rifidi.app.readerconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/org.rifidi.app.rifidimanagement/org.rifidi.app.rifidimanagement.iml" filepath="$PROJECT_DIR$/apps/org.rifidi.app.rifidimanagement/org.rifidi.app.rifidimanagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/org.rifidi.app.rifidimqtt/org.rifidi.app.rifidimqtt.iml" filepath="$PROJECT_DIR$/apps/org.rifidi.app.rifidimqtt/org.rifidi.app.rifidimqtt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/org.rifidi.app.rifidiservices/org.rifidi.app.rifidiservices.iml" filepath="$PROJECT_DIR$/apps/org.rifidi.app.rifidiservices/org.rifidi.app.rifidiservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/org.rifidi.app.template/org.rifidi.app.template.iml" filepath="$PROJECT_DIR$/apps/org.rifidi.app.template/org.rifidi.app.template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/apps/org.rifidi.app.thingworx/org.rifidi.app.thingworx.iml" filepath="$PROJECT_DIR$/apps/org.rifidi.app.thingworx/org.rifidi.app.thingworx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.rifidi.edge/org.rifidi.edge.iml" filepath="$PROJECT_DIR$/org.rifidi.edge/org.rifidi.edge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.rifidi.edge.adapter.alien/org.rifidi.edge.adapter.alien.iml" filepath="$PROJECT_DIR$/org.rifidi.edge.adapter.alien/org.rifidi.edge.adapter.alien.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.rifidi.edge.adapter.awid/org.rifidi.edge.adapter.awid.iml" filepath="$PROJECT_DIR$/org.rifidi.edge.adapter.awid/org.rifidi.edge.adapter.awid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.rifidi.edge.adapter.csl/org.rifidi.edge.adapter.csl.iml" filepath="$PROJECT_DIR$/org.rifidi.edge.adapter.csl/org.rifidi.edge.adapter.csl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.rifidi.edge.adapter.generic/org.rifidi.edge.adapter.generic.iml" filepath="$PROJECT_DIR$/org.rifidi.edge.adapter.generic/org.rifidi.edge.adapter.generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.rifidi.edge.adapter.llrp/org.rifidi.edge.adapter.llrp.iml" filepath="$PROJECT_DIR$/org.rifidi.edge.adapter.llrp/org.rifidi.edge.adapter.llrp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.rifidi.edge.adapter.opticon/org.rifidi.edge.adapter.opticon.iml" filepath="$PROJECT_DIR$/org.rifidi.edge.adapter.opticon/org.rifidi.edge.adapter.opticon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.rifidi.edge.adapter.thingmagic/org.rifidi.edge.adapter.thingmagic.iml" filepath="$PROJECT_DIR$/org.rifidi.edge.adapter.thingmagic/org.rifidi.edge.adapter.thingmagic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.rifidi.edge.adapter.thingmagic6/org.rifidi.edge.adapter.thingmagic6.iml" filepath="$PROJECT_DIR$/org.rifidi.edge.adapter.thingmagic6/org.rifidi.edge.adapter.thingmagic6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.rifidi.edge.adapter.thinkifyusb/org.rifidi.edge.adapter.thinkifyusb.iml" filepath="$PROJECT_DIR$/org.rifidi.edge.adapter.thinkifyusb/org.rifidi.edge.adapter.thinkifyusb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.rifidi.edge.api/org.rifidi.edge.api.iml" filepath="$PROJECT_DIR$/org.rifidi.edge.api/org.rifidi.edge.api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.rifidi.edge.init/org.rifidi.edge.init.iml" filepath="$PROJECT_DIR$/org.rifidi.edge.init/org.rifidi.edge.init.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.rifidi.edge.rest/org.rifidi.edge.rest.iml" filepath="$PROJECT_DIR$/org.rifidi.edge.rest/org.rifidi.edge.rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.rifidi.edge.tools/org.rifidi.edge.tools.iml" filepath="$PROJECT_DIR$/org.rifidi.edge.tools/org.rifidi.edge.tools.iml" />
+    </modules>
+  </component>
+</project>

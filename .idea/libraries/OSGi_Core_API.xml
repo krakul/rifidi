@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="OSGi Core API" type="org.osgi.core">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Rifidi-SDK/rifidi/debian/usr/local/sbin/rifidi/plugins/org.eclipse.osgi_3.10.101.v20150820-1432.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
