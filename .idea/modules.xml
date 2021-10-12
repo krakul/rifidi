@@ -25,6 +25,9 @@
       <module fileurl="file://$PROJECT_DIR$/org.rifidi.edge.adapter.thingmagic/org.rifidi.edge.adapter.thingmagic.iml" filepath="$PROJECT_DIR$/org.rifidi.edge.adapter.thingmagic/org.rifidi.edge.adapter.thingmagic.iml" />
       <module fileurl="file://$PROJECT_DIR$/org.rifidi.edge.adapter.thingmagic6/org.rifidi.edge.adapter.thingmagic6.iml" filepath="$PROJECT_DIR$/org.rifidi.edge.adapter.thingmagic6/org.rifidi.edge.adapter.thingmagic6.iml" />
       <module fileurl="file://$PROJECT_DIR$/org.rifidi.edge.adapter.thinkifyusb/org.rifidi.edge.adapter.thinkifyusb.iml" filepath="$PROJECT_DIR$/org.rifidi.edge.adapter.thinkifyusb/org.rifidi.edge.adapter.thinkifyusb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.rifidi.edge.ale/org.rifidi.edge.ale.iml" filepath="$PROJECT_DIR$/org.rifidi.edge.ale/org.rifidi.edge.ale.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.rifidi.edge.ale.server/org.rifidi.edge.ale.server.iml" filepath="$PROJECT_DIR$/org.rifidi.edge.ale.server/org.rifidi.edge.ale.server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/org.rifidi.edge.alelr/org.rifidi.edge.alelr.iml" filepath="$PROJECT_DIR$/org.rifidi.edge.alelr/org.rifidi.edge.alelr.iml" />
       <module fileurl="file://$PROJECT_DIR$/org.rifidi.edge.api/org.rifidi.edge.api.iml" filepath="$PROJECT_DIR$/org.rifidi.edge.api/org.rifidi.edge.api.iml" />
       <module fileurl="file://$PROJECT_DIR$/org.rifidi.edge.init/org.rifidi.edge.init.iml" filepath="$PROJECT_DIR$/org.rifidi.edge.init/org.rifidi.edge.init.iml" />
       <module fileurl="file://$PROJECT_DIR$/org.rifidi.edge.rest/org.rifidi.edge.rest.iml" filepath="$PROJECT_DIR$/org.rifidi.edge.rest/org.rifidi.edge.rest.iml" />

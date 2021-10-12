@@ -9,7 +9,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="module" module-name="org.rifidi.edge.api" />
     <orderEntry type="module" module-name="org.rifidi.edge" />
-    <orderEntry type="library" name="ECLIPSE" level="application" />
+    <orderEntry type="module" module-name="org.rifidi.edge.adapter.thingmagic" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

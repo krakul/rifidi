@@ -9,7 +9,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="module" module-name="org.rifidi.edge" />
     <orderEntry type="module" module-name="org.rifidi.edge.adapter.llrp" />
-    <orderEntry type="library" name="ECLIPSE" level="application" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
