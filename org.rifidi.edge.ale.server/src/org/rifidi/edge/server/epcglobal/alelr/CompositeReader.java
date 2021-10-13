@@ -31,9 +31,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.AutowireCapableBeanFactory;
 import org.springframework.stereotype.Component;
 
-import com.google.common.base.Predicate;
-import com.google.common.collect.Maps;
-
 import rx.Observable;
 import rx.Observer;
 import rx.Subscription;
