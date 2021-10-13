@@ -37,6 +37,7 @@ public class TemplateApp extends AbstractRifidiApp {
 	protected void _start() {
 		super._start();
 
+		System.out.println("Hello world!");
 		// subscribe to rifidservices, and create custom esper here.
 	}
 

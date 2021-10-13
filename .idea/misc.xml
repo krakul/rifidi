@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="Osmorc">
+    <option name="bundlesOutputPath" value="$PROJECT_DIR$/Rifidi-SDK/rifidi/debian/usr/local/sbin/rifidi/plugins" />
+    <option name="frameworkInstanceName" value="Equinox" />
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/Rifidi-SDK/rifidi/debian/usr/local/sbin/rifidi/plugins" />
+    <output url="file://$PROJECT_DIR$/Rifidi-SDK/rifidi/debian/usr/local/sbin/rifidi" />
   </component>
 </project>
