@@ -16,7 +16,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="module" module-name="org.rifidi.edge" />
     <orderEntry type="module" module-name="org.rifidi.edge.ale" />
-    <orderEntry type="module" module-name="org.rifidi.edge.alelr" />
+    <orderEntry type="module" module-name="org.rifidi.edge.ale.lr" />
     <orderEntry type="module" module-name="org.rifidi.edge.adapter.llrp" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
