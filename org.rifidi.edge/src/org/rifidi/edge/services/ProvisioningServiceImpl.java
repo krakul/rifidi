@@ -153,7 +153,7 @@ public class ProvisioningServiceImpl implements ProvisioningService {
 	 * @param pathToAppFolder
 	 */
 	public void setPathToAppFolder(String pathToAppFolder) {
-		logger.info("Path to applications foler: " + pathToAppFolder);
+		logger.info("Path to applications folder: " + pathToAppFolder);
 		this.pathToAppFolder = pathToAppFolder;
 	}
 
