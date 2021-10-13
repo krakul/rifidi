@@ -4,7 +4,7 @@ Bundle-Name: Serialbarcode
 Bundle-SymbolicName: org.rifidi.edge.adapter.opticon
 Bundle-Version: 1.0.1
 Bundle-Vendor: Pramari, LLC
-Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Import-Package: com.espertech.esper.client,
  gnu.io;version="2.1.7",
  net.sf.cglib.reflect;version="2.1.3",
