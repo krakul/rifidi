@@ -4,7 +4,9 @@
     <facet type="Osmorc" name="OSGi">
       <configuration manifestGenerationMode="Manually" manifestLocation="META-INF/MANIFEST.MF" jarfileLocation="org.rifidi.edge.init_1.1.0.jar" outputPathType="OsgiOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="" bundleVersion="1.0.0" ignoreFilePattern="" useProjectDefaultManifestFileLocation="false" alwaysRebuildBundleJAR="false" doNotSynchronizeWithMaven="false">
         <additionalProperties />
-        <additionalJARContents />
+        <additionalJARContents>
+          <entry source="$MODULE_DIR$/log4j.properties" dest="log4j.properties" />
+        </additionalJARContents>
       </configuration>
     </facet>
   </component>
