@@ -4,7 +4,7 @@ Bundle-Name: org.rifidi.edge.ale.server
 Bundle-SymbolicName: org.rifidi.edge.ale.server
 Bundle-Version: 1.0.0
 Bundle-Activator: ale.server2.Activator
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Import-Package: com.github.oxo42.stateless4j;version="2.5.0",
  com.github.oxo42.stateless4j.delegates;version="2.5.0",
  com.google.common.base;version="19.0.0",
