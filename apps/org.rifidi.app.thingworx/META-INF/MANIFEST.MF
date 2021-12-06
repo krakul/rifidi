@@ -4,7 +4,7 @@ Bundle-Name: ThingWorxApp
 Bundle-SymbolicName: org.rifidi.app.thingworx
 Bundle-Version: 1.0.0
 Bundle-Vendor: Transcends, LLC
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Import-Package: com.thingworx.communications.client,
  com.thingworx.communications.client.things,
  com.thingworx.communications.common,
