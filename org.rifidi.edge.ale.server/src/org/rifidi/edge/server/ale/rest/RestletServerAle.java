@@ -13,6 +13,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
+import java.security.InvalidParameterException;
 
 import javax.annotation.PostConstruct;
 import javax.xml.namespace.QName;
@@ -97,7 +98,16 @@ public class RestletServerAle extends Restlet {
 			if (restletEnabled) {
 
 				int port = Integer.parseInt(System.getProperty("org.rifidi.ale.port"));
+				String host = System.getProperty("org.rifidi.ale.host");
 
+				if ((port < 1) || (port > 65535)) {
+					throw new InvalidParameterException("Parameter 'org.rifidi.ale.port' is not between 1 and 65535.");
+				}
+				
+				if ((host == null) || (host.isEmpty())) {
+					throw new InvalidParameterException("Parameter 'org.rifidi.ale.host' is not defined.");
+				}
+				
 				URL alelrXsdResource = RestletServerAle.class
 						.getResource("/org/rifidi/edge/alelr/xsd/EPCglobal-ale-1_1-alelr.xsd");
 
@@ -159,7 +169,7 @@ public class RestletServerAle extends Restlet {
 				 */
 
 				// Publish alelr service
-				logger.info("Starting alelr service on port: " + port);
+				logger.info("Starting alelr service on host " + host + " port " + port);
 				Endpoint alelrEndPoint = Endpoint.create(HTTPBinding.HTTP_BINDING,alelrServicePortType);
 				if (IsWindows()) {
 					alelrEndPoint = Endpoint.create(alelrServicePortType);
@@ -168,11 +178,11 @@ public class RestletServerAle extends Restlet {
 				}
 				alelrEndPoint.setMetadata(metadataAlelr);
 				// alelrEndPoint.setProperties(properties);
-				URI uriAlelr = URI.create("http://localhost:" + port + "/alelrservice");
+				URI uriAlelr = URI.create("http://" + host + ":" + port + "/alelrservice");
 				alelrEndPoint.publish(uriAlelr.toString());
 
 				// Publish ale service
-				logger.info("Starting ale service on port: " + port);
+				logger.info("Starting ale service on host " + host + " port " + port);
 				Endpoint aleEndPoint;
 				if (IsWindows()) {
 					aleEndPoint = Endpoint.create(aleServicePortType);
@@ -180,7 +190,7 @@ public class RestletServerAle extends Restlet {
 					aleEndPoint = Endpoint.create(HTTPBinding.HTTP_BINDING,aleServicePortType);
 				}
 				aleEndPoint.setMetadata(metadataAle);
-				URI uriAle = URI.create("http://localhost:" + port + "/aleservice");
+				URI uriAle = URI.create("http://" + host + ":" + port + "/aleservice");
 				aleEndPoint.publish(uriAle.toString());
 
 				// //Restlet
