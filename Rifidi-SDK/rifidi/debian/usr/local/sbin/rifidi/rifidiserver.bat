@@ -38,6 +38,7 @@ java ^
 -Dorg.rifidi.restlet.ssl.keypassword=password ^
 -Dorg.rifidi.restlet.ssl.keystoretype=JKS ^
 -Dorg.rifidi.ale.enabled=true ^
+-Dorg.rifidi.ale.host=127.0.0.1 ^
 -Dorg.rifidi.ale.port=8112 ^
 -Djava.util.logging.config.file=config/restletlogging.properties ^
 -jar plugins\org.eclipse.equinox.launcher_1.3.100.v20150511-1540.jar ^
