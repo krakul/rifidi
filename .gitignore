@@ -84,3 +84,5 @@ org.apache.poi/
 Rifidi-SDK/rifidi/Debian-packages/*
 
 .directory
+/Rifidi-SDK/rifidi/debian/usr/local/sbin/rifidi/configuration/*.log
+/Rifidi-SDK/rifidi/debian/usr/local/sbin/rifidi/configuration/org.eclipse.equinox.app/.manager/*.instance
