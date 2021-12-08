@@ -4,7 +4,9 @@
     <facet type="Osmorc" name="OSGi">
       <configuration manifestGenerationMode="Manually" manifestLocation="META-INF/MANIFEST.MF" jarfileLocation="org.rifidi.edge.adapter.awid_1.1.3.jar" outputPathType="OsgiOutputPath" bndFileLocation="" bundlorFileLocation="" bundleActivator="" bundleSymbolicName="" bundleVersion="1.0.0" ignoreFilePattern="" useProjectDefaultManifestFileLocation="false" alwaysRebuildBundleJAR="true" doNotSynchronizeWithMaven="false">
         <additionalProperties />
-        <additionalJARContents />
+        <additionalJARContents>
+          <entry source="$MODULE_DIR$/META-INF/spring" dest="META-INF/spring" />
+        </additionalJARContents>
       </configuration>
     </facet>
   </component>

@@ -6,6 +6,8 @@
         <additionalProperties />
         <additionalJARContents>
           <entry source="$MODULE_DIR$/activemq-core-5.5.0.xsd" dest="activemq-core-5.5.0.xsd" />
+          <entry source="$MODULE_DIR$/META-INF/spring" dest="META-INF/spring" />
+          <entry source="$MODULE_DIR$/activemq-core-5.5.0.xsd" dest="META-INF/activemq-core-5.5.0.xsd" />
         </additionalJARContents>
       </configuration>
     </facet>
