@@ -20,7 +20,7 @@ import javax.xml.namespace.QName;
 import javax.xml.transform.Source;
 import javax.xml.transform.stream.StreamSource;
 import javax.xml.ws.Endpoint;
-import javax.xml.ws.http.HTTPBinding;
+import javax.xml.ws.soap.SOAPBinding;
 import javax.xml.ws.spi.http.HttpContext;
 
 import org.apache.commons.logging.Log;
@@ -170,11 +170,11 @@ public class RestletServerAle extends Restlet {
 
 				// Publish alelr service
 				logger.info("Starting alelr service on host " + host + " port " + port);
-				Endpoint alelrEndPoint = Endpoint.create(HTTPBinding.HTTP_BINDING,alelrServicePortType);
+				Endpoint alelrEndPoint;
 				if (IsWindows()) {
 					alelrEndPoint = Endpoint.create(alelrServicePortType);
 				} else {
-					alelrEndPoint = Endpoint.create(HTTPBinding.HTTP_BINDING,alelrServicePortType);
+					alelrEndPoint = Endpoint.create(SOAPBinding.SOAP11HTTP_BINDING, alelrServicePortType);
 				}
 				alelrEndPoint.setMetadata(metadataAlelr);
 				// alelrEndPoint.setProperties(properties);
@@ -187,7 +187,7 @@ public class RestletServerAle extends Restlet {
 				if (IsWindows()) {
 					aleEndPoint = Endpoint.create(aleServicePortType);
 				} else {
-					aleEndPoint = Endpoint.create(HTTPBinding.HTTP_BINDING,aleServicePortType);
+					aleEndPoint = Endpoint.create(SOAPBinding.SOAP11HTTP_BINDING, aleServicePortType);
 				}
 				aleEndPoint.setMetadata(metadataAle);
 				URI uriAle = URI.create("http://" + host + ":" + port + "/aleservice");
