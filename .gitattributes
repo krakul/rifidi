@@ -1,3 +1,0 @@
-# Declare files that SOAP files have Unix line ending, otherwise there are problems with ALE server.
-*.xsd text eol=lf
-*.wsdl text eol=lf
