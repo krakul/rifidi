@@ -105,7 +105,8 @@ public class RestletServerAle extends Restlet {
 				}
 				
 				if ((host == null) || (host.isEmpty())) {
-					throw new InvalidParameterException("Parameter 'org.rifidi.ale.host' is not defined.");
+					host = "localhost";
+					logger.warn("Using " + host + " as ALE server host name. To change it, set parameter 'org.rifidi.ale.host'.");
 				}
 				
 				URL alelrXsdResource = RestletServerAle.class
