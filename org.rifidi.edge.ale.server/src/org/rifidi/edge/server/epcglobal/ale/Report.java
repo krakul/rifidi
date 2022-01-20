@@ -443,9 +443,13 @@ public class Report {
 		if (outputExtension != null) {
 			if (outputExtension.getFieldList() != null) {
 				for (ECReportOutputFieldSpec outputFieldSpec : outputExtension.getFieldList().getField()) {
-					String fieldName = outputFieldSpec.getFieldspec().getFieldname();
-					if (fieldName.equalsIgnoreCase("UserMemory") && outputFieldSpec.isIncludeFieldSpecInReport()) {
-						addUserMemoryToReport(tag, groupMember,fieldName) ;
+					if (outputFieldSpec.getFieldspec() != null) {
+						String fieldName = outputFieldSpec.getFieldspec().getFieldname();
+						if (fieldName != null) {
+							if (fieldName.equalsIgnoreCase("UserMemory") && outputFieldSpec.isIncludeFieldSpecInReport()) {
+								addUserMemoryToReport(tag, groupMember, fieldName);
+							}
+						}
 					}
 				}
 			}	
